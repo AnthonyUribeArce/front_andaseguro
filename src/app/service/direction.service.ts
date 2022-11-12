@@ -8,7 +8,7 @@ import { Subject, EMPTY } from 'rxjs';
 })
 export class DirectionService {
 
-  url: string = "http://localhost:8081/direcciones";
+  url: string = "https://andaseguro.herokuapp.com/direcciones";
   private listaCambio = new Subject<Direction[]>()
   private confirmaEliminacion = new Subject<Boolean>()
 

@@ -7,7 +7,7 @@ import { EMPTY, Subject } from 'rxjs';
   providedIn: 'root'
 })
 export class ComplaintService {
-  url: string = "http://localhost:8081/denuncias"
+  url: string = "https://andaseguro.herokuapp.com/denuncias"
   private listaCambio = new Subject<Complaint[]>()
   private confirmaEliminacion = new Subject<Boolean>()
 

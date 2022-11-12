@@ -5,7 +5,7 @@ import { User } from '../model/user';
   providedIn: 'root'
 })
 export class UserService {
-  url: string = "http://localhost:8081/usuarios"
+  url: string = "https://andaseguro.herokuapp.com/usuarios"
   constructor(private http:HttpClient) { }
 
   listar(){

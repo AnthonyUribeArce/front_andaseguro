@@ -6,7 +6,7 @@ import { Address } from '../model/address';
   providedIn: 'root'
 })
 export class AddressService {
-  url: string = "http://localhost:8081/direcciones"
+  url: string = "https://andaseguro.herokuapp.com/direcciones"
   constructor(private http:HttpClient) { }
 
   listar(){

@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class RolService {
-  url: string = "http://localhost:8081/roles"
+  url: string = "https://andaseguro.herokuapp.com/roles"
 
   constructor(private http:HttpClient) { }
 

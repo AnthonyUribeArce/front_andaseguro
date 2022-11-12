@@ -7,7 +7,7 @@ import { Zone } from '../model/zone';
   providedIn: 'root'
 })
 export class ZoneService {
-  url: string = "http://localhost:8081/zonas"
+  url: string = "https://andaseguro.herokuapp.com/zonas"
   private listaCambio = new Subject<Zone[]>()
   private confirmaEliminacion = new Subject<Boolean>()
 

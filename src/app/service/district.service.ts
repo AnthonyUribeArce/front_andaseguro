@@ -7,7 +7,7 @@ import { EMPTY, Subject } from 'rxjs';
   providedIn: 'root'
 })
 export class DistrictService {
-  url: string = "http://localhost:8081/distritos";
+  url: string = "https://andaseguro.herokuapp.com/distritos";
   private listaCambio = new Subject<District[]>()
   private confirmaEliminacion = new Subject<Boolean>()
 
